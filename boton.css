@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+buttons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Estilo base para los botones */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none; /* Para botones que sean enlaces */
+}
+
+/* Estilo al pasar el ratón */
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Estilo para el enfoque del teclado */
+.button:focus {
+    outline: 2px solid #80bdff;
+    outline-offset: 2px;
+}
+
+/* Clases adicionales para personalización */
+.button.verde {
+    background-color: green;
+}
+
+.button.verde:hover {
+    background-color: #218838;
+}
+
+.button.rojo {
+    background-color: red;
+}
+
+.button.rojo:hover {
+    background-color: #c82333;
+}
+
+.button.naranja {
+    background-color: orange;
+}
+
+.button.naranja:hover {
+    background-color: #e36209;
+}
+
+.button.amarillo{
+background-color: yellow;
+}
+
+.button.amarillo:hover{
+    background-color: #d5eb0f;
+}
+
+.button.azul{
+    background-color: blue;
+}
+
+.button.azul:hover{
+    background-color: #1a52ec;
+}
+
+.button.morado{
+    background-color: blueviolet;
+}
+
+.button.morado:hover{
+    background-color: #5900ff;
+}
+
+.button.celeste{
+    background-color: skyblue;
+}
+
+.button.celeste:hover{
+    background-color: #80bdff;
+}
+
+.button.rosado{
+    background-color: pink;
+}
+
+.button.rosado:hover{
+    background-color: #eb15ce;
+}
+
+.button.aguamarina{
+    background-color: aquamarine;
+}
+
+.button.aguamarina:hover{
+    background-color: #38e0ec;
+}
